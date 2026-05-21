@@ -11,12 +11,9 @@ Un jeu vidéo développé avec **Unity** et **C#**.
 - [À propos](#-à-propos)
 - [Démarrage rapide (Jouer au jeu)](#-démarrage-rapide-jouer-au-jeu)
 - [Installation (Développement)](#-installation-développement)
-- [Utilisation](#-utilisation)
 - [Concept & Gameplay](#-concept--gameplay)
 - [Bestiaire](#-bestiaire)
-- [Spécifications Techniques](#-spécifications-techniques)
-- [Défis Rencontrés](#-défis-rencontrés)
-- [Ressources](#-ressources)
+- [Structure du projet](#-structure-du-projet)
 
 ---
 
@@ -106,28 +103,6 @@ Vous avez deux options pour installer le projet :
 
 ---
 
-## 🎮 Utilisation
-
-### Pour jouer en développement
-
-Pour jouer ou tester le jeu directement dans Unity :
-
-1. Ouvrez le projet dans Unity
-2. Appuyez sur le bouton **Play** dans l'éditeur
-3. Explorez et testez les mécaniques du jeu
-
-### Pour créer votre propre Build
-
-Si vous voulez créer une version compilée pour Android :
-
-1. Dans Unity, allez sur **File** → **Build Settings**
-2. Sélectionnez **Android** comme plateforme cible
-3. Cliquez sur **Build** ou **Build and Run**
-4. Choisissez un dossier de destination
-5. Attendez que Unity compile le jeu en `.apk`
-
----
-
 ## 🎮 Concept & Gameplay
 
 ### Pitch
@@ -160,25 +135,6 @@ Les vagues sont composées de trois grandes catégories d'ennemis aux comporteme
 
 ---
 
-## 🛠️ Spécifications Techniques
-
-* **Moteur de jeu :** Unity
-* **Plateforme cible :** Android (Smartphone)
-* **Orientation :** Mode Portrait
-* **Caméra :** Vue 2D à la 3e personne, caméra fixe centrée sur le personnage
-* **Contrôles :** Joystick virtuel sur l'écran tactile pour déplacer le virus dans toutes les directions
-* **Assets graphiques :** Récupérés sur l'Asset Store d'Unity et Itch.io (Coût global : 3$)
-* **Inspirations majeures :** *Survivor.io*, *Z Defense*, *Plague Inc.*
-
----
-
-## 🚀 Défis Rencontrés
-
-* **Différences d'environnement (Émulateur vs Réel) :** L'adaptation des éléments de l'UI (notamment la sensibilité et le positionnement du Joystick tactile) entre l'éditeur Unity et les appareils réels.
-* **Gestion de la portée du projet :** Le game design initial s'est révélé très ambitieux vis-à-vis des contraintes de temps imparties, menant à des arbitrages dans la conception.
-
----
-
 ## 📁 Structure du projet
 
 ### Dossiers principaux
@@ -194,12 +150,6 @@ Les vagues sont composées de trois grandes catégories d'ennemis aux comporteme
 
 ---
 
-## 📚 Ressources
-
-- 📄 [V-Evolution_Soutenance_finale.pdf](./V-Evolution_Soutenance_finale.pdf) - Documentation complète
-- 🎮 [Releases](https://github.com/Malo-Prijac/V-Evolution/releases) - Télécharger le jeu compilé
-
----
 
 ## 👥 Auteurs
 
